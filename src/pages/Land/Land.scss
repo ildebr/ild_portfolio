@@ -1,0 +1,259 @@
+*{
+    font-family: "__inter_20b187","__inter_Fallback_20b187", sans-serif;
+}
+
+:root{
+    --text-color: #94a3b8;
+    --text-main-color: #e2e8f0;
+    --small-pad: 1rem;
+    --small-l-pad: 1.5rem;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body{
+    --tw-bg-opacity: 1;
+    background-color: rgb(15 23 42/var(--tw-bg-opacity));
+    color: var(--text-color);
+}
+
+h1,h2,h3,h4{
+    color: var(--text-main-color);
+}
+h1,h2,h3,h4,p{
+    margin: 0;
+}
+
+.land{
+    .sub-head{
+        font-size: 16px;
+    }
+}
+
+body{
+    position: relative;
+}
+
+.section-title{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    
+}
+
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.column{
+    scroll-behavior: smooth;
+}
+
+.general__display{
+    &__element{
+        margin-bottom: 4rem;
+    }
+
+    a{
+        color: var(--text-main-color);
+        text-decoration: none;
+        &:hover{
+            color: rgb(94 234 212);
+        }
+    }
+    .extra-img{
+        max-width: 150px;
+        margin-bottom: .5rem;
+    }
+    .year{
+        font-size: 12px;
+        margin-bottom: .5rem;
+        display: inline-block;
+    }
+
+    .year, h4{
+        margin-bottom: .5rem;
+    }
+
+    &__element__text{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    &__element__skill{
+        font-size: 12px;
+        --tw-text-opacity: 1;
+        color: rgb(94 234 212/var(--tw-text-opacity));
+        background-color: rgb(94 234 212/.15);
+        width: fit-content;
+        padding: .5rem .75rem;
+        border-radius: 20px;
+        font-weight: 800;
+    }
+}
+
+
+
+
+.container{
+    // padding: var(--small-l-pad);
+}
+
+section > *{
+    padding: 0 var(--small-l-pad);
+}
+
+section > .section-title{
+    padding: var(--small-l-pad);
+    backdrop-filter: blur(10px);
+}
+
+
+.introduction{
+    padding-top: 1rem;
+
+    .socials{
+        margin-top: 3rem;
+        margin-bottom: 4rem;
+    }
+
+    a{
+        color: var(--text-main-color);
+        &:hover{
+            color: rgb(94 234 212)
+        }
+    }
+    .svg-ele{
+        height: 40px;
+        margin-right: 1rem;
+    }
+    h2{
+        margin-bottom: 1rem;
+    }
+
+    p{
+        margin-bottom: 1rem;
+    }
+}
+
+.about{
+    margin-bottom: 1rem;
+}
+
+.header-title{
+    margin-bottom: 2rem;
+}
+
+.page__slider{
+    display: none;
+}
+
+.section{
+    margin-bottom: 5rem;
+}
+
+
+@media (min-width:700px) {
+    .general__display{
+        transition: .3s ease;
+
+        &__element{
+            margin-bottom: 1rem;
+        }
+        .hero .general__link{
+            
+            &:hover{
+                background-color: rgb(255 255 255 / 3%);
+                backdrop-filter: blur(40px);   
+                border-top: 1px solid rgb(255 255 255 /15%);
+            }
+            
+        }
+
+        .general__link{
+            display: grid;
+            grid-template-columns: 180px auto;
+            padding: 1rem;
+            border-radius: 15px;
+            transition: .3s ease-in-out;
+            border-top: 1px solid transparent;
+
+            &:hover{
+                background-color: rgb(255 255 255 / 3%);
+                backdrop-filter: blur(40px);   
+                border-top: 1px solid rgb(255 255 255 /15%);
+            }
+        }
+
+        // &__element{
+        //     &:hover ~ &:not(:hover){
+        //         background-color: red;
+        //     }
+        // }
+
+        &:hover .general__link:not(:hover){
+            filter: blur(1px);
+        }
+    }
+}
+
+@media (min-width:1025px){
+    .land{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+
+
+        .column{
+            height: calc(100vh - 8rem);
+            overflow-y: scroll;
+        }
+    }
+
+    .page__slider{
+        display: block;
+
+        color: var(--text-color);
+
+        &__element{
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+
+            a{
+                text-decoration: none;
+                color: var(--text-color);
+            }
+
+            .line ~ a.active{
+                background-color: red;   
+            }
+
+
+            .line{
+                width: 2rem;
+                height: 1px;
+                background-color: var(--text-color);
+                margin-right: 1rem;
+                transition: .3s ease-in-out;
+            }
+        }
+
+        &__element.active{
+            a{
+                color: var(--text-main-color);
+            }
+            .line{
+                background-color: var(--text-main-color);
+                width: 4rem;
+            }
+        }
+    }
+}
