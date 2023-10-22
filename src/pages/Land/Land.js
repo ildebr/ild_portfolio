@@ -56,7 +56,7 @@ export default function Land(){
                 <p>FullStack Developer with knowledge in React, Django, Node, php, javascript, responsive web development, Database Design, HTML and CSS.
                 </p>
                 <p>I speak English, Spanish and some Portuguese!</p>
-                <p>Contact me at <span className='highlight'>ildebrandoefrain@gmail.com</span> or any of my sociales!</p>
+                <p>Contact me at <span className='highlight'>ildebrandoefrain@gmail.com</span> or any of my socials!</p>
            </div>
 
 
@@ -117,10 +117,10 @@ export default function Land(){
                             <header className='general__display__element__title'>
                                 <h4>Frontend Developer - Lead Buyer Hub LLC</h4>
                                 <p className='general__display__element__text'>
-                                I designed and developed websites using HTML, CSS and JavaScript that met the client's requirements and enhanced the user experience. I also ensured the websites were compatible with various devices and browsers. I used Filezilla, FTP and other tools to upload and manage web content efficiently and securely.
+                                I designed and developed websites using Wordpress, HTML, CSS and JavaScript that met the client's requirements and enhanced the user experience. I also ensured the websites were compatible with various devices and browsers. I used Filezilla, FTP and other tools to upload and manage web content efficiently and securely.
                                 </p>
                                 <div className='general__display__element__skills'>
-                                    <p className='general__display__element__skill'>React</p>
+                                    <p className='general__display__element__skill'>Wordpress</p>
                                     <p className='general__display__element__skill'>HTML</p>
                                     <p className='general__display__element__skill'>CSS</p>
                                     <p className='general__display__element__skill'>JAVASCRIPT</p>
@@ -208,9 +208,31 @@ export default function Land(){
             <div className='general__display'>
                 <div className='hero'>
                 <div className='general__display__element'>
+                    <a href='https://lowincomebenefits.com/' class='general__link'>
+                        <div className='general_display__extra'>
+                            <img src='img/lowincomebenefits.com_.webp' className='extra-img' />
+                        </div>
+
+                        <div className='general__display__main__area'>
+                            <header className='general__display__element__title'>
+                                <h4><a href='#'>Lowincomebenefits</a></h4>
+                                <p className='general__display__element__text'>
+                                Built landing page for Low Income Benefits according to their needs and preferences. As well as posts pages for different topics. I optimized the landing page for SEO, speed, and mobile responsiveness, and tested it for conversions and usability. 
+                                </p>
+                                <div className='general__display__element__skills'>
+                                    <p className='general__display__element__skill'>JAVASCRIPT</p>
+                                    <p className='general__display__element__skill'>CSS</p>
+                                    <p className='general__display__element__skill'>HTML</p>
+                                </div>
+                            </header>
+                            
+                        </div>
+                    </a>
+                </div>
+                <div className='general__display__element'>
                     <a href='https://ildebr.github.io/portfolio/' class='general__link'>
                         <div className='general_display__extra'>
-                            <img src='img/portfolio.png' className='extra-img' />
+                            <img src='img/portfolio.webp' className='extra-img' />
                         </div>
 
                         <div className='general__display__main__area'>
@@ -233,7 +255,7 @@ export default function Land(){
                 <div className='general__display__element'>
                     <a href='https://gotruster.vercel.app/' class='general__link'>
                         <div className='general_display__extra'>
-                            <img src='img/gotruster.png' className='extra-img' />
+                            <img src='img/gotruster.webp' className='extra-img' />
                         </div>
 
                         <div className='general__display__main__area'>
@@ -256,7 +278,7 @@ export default function Land(){
                 <div className='general__display__element'>
                     <a href='https://ildebr.github.io/btrackbikes/' class='general__link'>
                         <div className='general_display__extra'>
-                            <img src='img/bike.png' className='extra-img' />
+                            <img src='img/bike.webp' className='extra-img' />
                         </div>
 
                         <div className='general__display__main__area'>
@@ -279,7 +301,7 @@ export default function Land(){
                 <div className='general__display__element'>
                     <a href='https://django-notes-app.onrender.com/landing' class='general__link'>
                         <div className='general_display__extra'>
-                            <img src='img/notes.png' className='extra-img' />
+                            <img src='img/notes.webp' className='extra-img' />
                         </div>
 
                         <div className='general__display__main__area'>
@@ -302,7 +324,7 @@ export default function Land(){
                 <div className='general__display__element'>
                     <a href='https://django-notes-app.onrender.com/landing' class='general__link'>
                         <div className='general_display__extra'>
-                            <img src='img/chat.png' className='extra-img' />
+                            <img src='img/chat.webp' className='extra-img' />
                         </div>
 
                         <div className='general__display__main__area'>
@@ -323,7 +345,7 @@ export default function Land(){
                 <div className='general__display__element'>
                     <a href='https://django-notes-app.onrender.com/landing' class='general__link'>
                         <div className='general_display__extra'>
-                            <img src='img/pokeapi.png' className='extra-img' />
+                            <img src='img/pokeapi.webp' className='extra-img' />
                         </div>
 
                         <div className='general__display__main__area'>
@@ -345,7 +367,7 @@ export default function Land(){
                 <div className='general__display__element'>
                     <a href='https://ildebr.github.io/hote-rombu/' class='general__link'>
                         <div className='general_display__extra'>
-                            <img src='img/rombu.png' className='extra-img' />
+                            <img src='img/rombu.webp' className='extra-img' />
                         </div>
 
                         <div className='general__display__main__area'>
@@ -367,7 +389,7 @@ export default function Land(){
                 <div className='general__display__element'>
                     <a href='https://ildebr.github.io/ZahaHadid/' class='general__link'>
                         <div className='general_display__extra'>
-                            <img src='img/zaha.png' className='extra-img' />
+                            <img src='img/zaha.webp' className='extra-img' />
                         </div>
 
                         <div className='general__display__main__area'>
