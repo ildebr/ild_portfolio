@@ -210,7 +210,7 @@ export default function Land(){
                 <div className='general__display__element'>
                     <a href='https://lowincomebenefits.com/' class='general__link'>
                         <div className='general_display__extra'>
-                            <img src='img/lowincomebenefits.com_.webp' className='extra-img' />
+                            <img src='img/lowincomebenefits.com_.webp' className='extra-img' alt="lowincome screen capture" />
                         </div>
 
                         <div className='general__display__main__area'>
@@ -232,7 +232,7 @@ export default function Land(){
                 <div className='general__display__element'>
                     <a href='https://ildebr.github.io/portfolio/' class='general__link'>
                         <div className='general_display__extra'>
-                            <img src='img/portfolio.webp' className='extra-img' />
+                            <img src='img/portfolio.webp' className='extra-img' alt='portfolio screen capture' />
                         </div>
 
                         <div className='general__display__main__area'>
@@ -255,7 +255,7 @@ export default function Land(){
                 <div className='general__display__element'>
                     <a href='https://gotruster.vercel.app/' class='general__link'>
                         <div className='general_display__extra'>
-                            <img src='img/gotruster.webp' className='extra-img' />
+                            <img src='img/gotruster.webp' className='extra-img' alt='gotruster screen capture' />
                         </div>
 
                         <div className='general__display__main__area'>
@@ -278,7 +278,7 @@ export default function Land(){
                 <div className='general__display__element'>
                     <a href='https://ildebr.github.io/btrackbikes/' class='general__link'>
                         <div className='general_display__extra'>
-                            <img src='img/bike.webp' className='extra-img' />
+                            <img src='img/bike.webp' className='extra-img' alt='bike screen capture' />
                         </div>
 
                         <div className='general__display__main__area'>
@@ -301,7 +301,7 @@ export default function Land(){
                 <div className='general__display__element'>
                     <a href='https://django-notes-app.onrender.com/landing' class='general__link'>
                         <div className='general_display__extra'>
-                            <img src='img/notes.webp' className='extra-img' />
+                            <img src='img/notes.webp' className='extra-img' alt='notes screen capture' />
                         </div>
 
                         <div className='general__display__main__area'>
@@ -324,7 +324,7 @@ export default function Land(){
                 <div className='general__display__element'>
                     <a href='https://django-notes-app.onrender.com/landing' class='general__link'>
                         <div className='general_display__extra'>
-                            <img src='img/chat.webp' className='extra-img' />
+                            <img src='img/chat.webp' className='extra-img' alt='chat screen capture' />
                         </div>
 
                         <div className='general__display__main__area'>
@@ -345,7 +345,7 @@ export default function Land(){
                 <div className='general__display__element'>
                     <a href='https://django-notes-app.onrender.com/landing' class='general__link'>
                         <div className='general_display__extra'>
-                            <img src='img/pokeapi.webp' className='extra-img' />
+                            <img src='img/pokeapi.webp' className='extra-img' alt='pokeapi screen capture' />
                         </div>
 
                         <div className='general__display__main__area'>
@@ -367,7 +367,7 @@ export default function Land(){
                 <div className='general__display__element'>
                     <a href='https://ildebr.github.io/hote-rombu/' class='general__link'>
                         <div className='general_display__extra'>
-                            <img src='img/rombu.webp' className='extra-img' />
+                            <img src='img/rombu.webp' className='extra-img' alt='rombu landing page screen capture' />
                         </div>
 
                         <div className='general__display__main__area'>
@@ -389,7 +389,7 @@ export default function Land(){
                 <div className='general__display__element'>
                     <a href='https://ildebr.github.io/ZahaHadid/' class='general__link'>
                         <div className='general_display__extra'>
-                            <img src='img/zaha.webp' className='extra-img' />
+                            <img src='img/zaha.webp' className='extra-img' alt='zaha hadid landing page screen capture'/>
                         </div>
 
                         <div className='general__display__main__area'>
