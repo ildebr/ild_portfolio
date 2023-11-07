@@ -232,28 +232,26 @@ export default function Land(){
                     </a>
                 </div>
                 <div className='general__display__element'>
-                    <a href='https://ildebr.github.io/portfolio/' class='general__link'>
+                    <a href='https://github.com/ildebr/invoicegenerator' class='general__link'>
                         <div className='general_display__extra'>
-                            <img src='img/portfolio.webp' className='extra-img' alt='portfolio screen capture' />
+                            <img src='img/tkinter.webp' className='extra-img' alt='tkinter app screen capture' />
                         </div>
 
                         <div className='general__display__main__area'>
                             <header className='general__display__element__title'>
-                                <h4><a href='#'>My Old Portfolio</a></h4>
+                                <h4><a href='#'>Python PDF Invoice Generator</a></h4>
                                 <p className='general__display__element__text'>
-                                I developed a responsive landing page using React that adapted to different screen sizes to list my experience and past projects.
+                                PDF Invoice generator using Tkinter and FPDF2.
                                 </p>
                                 <div className='general__display__element__skills'>
-                                    <p className='general__display__element__skill'>React</p>
-                                    <p className='general__display__element__skill'>JAVASCRIPT</p>
-                                    <p className='general__display__element__skill'>CSS</p>
-                                    <p className='general__display__element__skill'>HTML</p>
+                                    <p className='general__display__element__skill'>Python</p>
                                 </div>
                             </header>
                             
                         </div>
                     </a>
                 </div>
+                
                 <div className='general__display__element'>
                     <a href='https://gotruster.vercel.app/' class='general__link'>
                         <div className='general_display__extra'>
@@ -291,6 +289,29 @@ export default function Land(){
                                 </p>
                                 <div className='general__display__element__skills'>
                                     <p className='general__display__element__skill'>GSAP</p>
+                                    <p className='general__display__element__skill'>JAVASCRIPT</p>
+                                    <p className='general__display__element__skill'>CSS</p>
+                                    <p className='general__display__element__skill'>HTML</p>
+                                </div>
+                            </header>
+                            
+                        </div>
+                    </a>
+                </div>
+                <div className='general__display__element'>
+                    <a href='https://ildebr.github.io/portfolio/' class='general__link'>
+                        <div className='general_display__extra'>
+                            <img src='img/portfolio.webp' className='extra-img' alt='portfolio screen capture' />
+                        </div>
+
+                        <div className='general__display__main__area'>
+                            <header className='general__display__element__title'>
+                                <h4><a href='#'>My Old Portfolio</a></h4>
+                                <p className='general__display__element__text'>
+                                I developed a responsive landing page using React that adapted to different screen sizes to list my experience and past projects.
+                                </p>
+                                <div className='general__display__element__skills'>
+                                    <p className='general__display__element__skill'>React</p>
                                     <p className='general__display__element__skill'>JAVASCRIPT</p>
                                     <p className='general__display__element__skill'>CSS</p>
                                     <p className='general__display__element__skill'>HTML</p>
