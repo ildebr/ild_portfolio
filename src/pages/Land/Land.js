@@ -322,6 +322,28 @@ export default function Land(){
                     </a>
                 </div>
                 <div className='general__display__element'>
+                    <a href='https://ildebr.github.io/instant/' class='general__link'>
+                        <div className='general_display__extra'>
+                            <img src='img/portfolio.webp' className='extra-img' alt='portfolio screen capture' />
+                        </div>
+
+                        <div className='general__display__main__area'>
+                            <header className='general__display__element__title'>
+                                <h4><a href='#'>Leads capture landing page.</a></h4>
+                                <p className='general__display__element__text'>
+                                Informative landing page for leads generation
+                                </p>
+                                <div className='general__display__element__skills'>
+                                    <p className='general__display__element__skill'>JAVASCRIPT</p>
+                                    <p className='general__display__element__skill'>CSS</p>
+                                    <p className='general__display__element__skill'>HTML</p>
+                                </div>
+                            </header>
+                            
+                        </div>
+                    </a>
+                </div>
+                <div className='general__display__element'>
                     <a href='https://django-notes-app.onrender.com/landing' class='general__link'>
                         <div className='general_display__extra'>
                             <img src='img/notes.webp' className='extra-img' alt='notes screen capture' />
@@ -345,7 +367,7 @@ export default function Land(){
                     </a>
                 </div>
                 <div className='general__display__element'>
-                    <a href='https://django-notes-app.onrender.com/landing' class='general__link'>
+                    <a href='https://chatapp-kappa-coral.vercel.app/' class='general__link'>
                         <div className='general_display__extra'>
                             <img src='img/chat.webp' className='extra-img' alt='chat screen capture' />
                         </div>
@@ -366,7 +388,7 @@ export default function Land(){
                     </a>
                 </div>
                 <div className='general__display__element'>
-                    <a href='https://django-notes-app.onrender.com/landing' class='general__link'>
+                    <a href='https://adoring-allen-c97350.netlify.app/' class='general__link'>
                         <div className='general_display__extra'>
                             <img src='img/pokeapi.webp' className='extra-img' alt='pokeapi screen capture' />
                         </div>
