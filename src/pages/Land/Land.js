@@ -324,7 +324,7 @@ export default function Land(){
                 <div className='general__display__element'>
                     <a href='https://ildebr.github.io/instant/' class='general__link'>
                         <div className='general_display__extra'>
-                            <img src='img/portfolio.webp' className='extra-img' alt='portfolio screen capture' />
+                            <img src='img/leads.webp' className='extra-img' alt='leads screen capture' />
                         </div>
 
                         <div className='general__display__main__area'>
@@ -360,6 +360,26 @@ export default function Land(){
                                     <p className='general__display__element__skill'>Python</p>
                                     <p className='general__display__element__skill'>HTML</p>
                                     <p className='general__display__element__skill'>CSS</p>
+                                </div>
+                            </header>
+                            
+                        </div>
+                    </a>
+                </div>
+                <div className='general__display__element'>
+                    <a href='https://mobile-app-wireframes.vercel.app/' class='general__link'>
+                        <div className='general_display__extra'>
+                            <img src='img/mobile-app.webp' className='extra-img' alt='mobile app' />
+                        </div>
+
+                        <div className='general__display__main__area'>
+                            <header className='general__display__element__title'>
+                                <h4><a href='#'>Mobile App</a></h4>
+                                <p className='general__display__element__text'>
+                                    Mobile App Wireframes
+                                </p>
+                                <div className='general__display__element__skills'>
+                                    <p className='general__display__element__skill'>React</p>
                                 </div>
                             </header>
                             
