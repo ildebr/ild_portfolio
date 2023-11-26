@@ -206,7 +206,7 @@ export default function Land(){
 
     function Projects(){
         return <section className='section project' id='project'>
-            <h3 className='section-title'>PROJECTS</h3>
+            <h3 className='section-title'>PAST WORKS & PROJECTS</h3>
             <div className='general__display'>
                 <div className='hero'>
                 <div className='general__display__element'>
@@ -225,6 +225,49 @@ export default function Land(){
                                     <p className='general__display__element__skill'>JAVASCRIPT</p>
                                     <p className='general__display__element__skill'>CSS</p>
                                     <p className='general__display__element__skill'>HTML</p>
+                                </div>
+                            </header>
+                            
+                        </div>
+                    </a>
+                </div>
+                <div className='general__display__element'>
+                    <a href='https://ovnis-app.onrender.com/1' class='general__link'>
+                        <div className='general_display__extra'>
+                            <img src='img/ovnisappf.webp' className='extra-img' alt='ovnis app frontend' />
+                        </div>
+
+                        <div className='general__display__main__area'>
+                            <header className='general__display__element__title'>
+                                <h4><a href='#'>OVNIS WATCHER</a></h4>
+                                <p className='general__display__element__text'>
+                                Ovnis watcher is a web to keep track of Ovnis sightings. Consuming my ovnis watcher Django API.
+                                </p>
+                                <div className='general__display__element__skills'>
+                                    <p className='general__display__element__skill'>React</p>
+                                    <p className='general__display__element__skill'>Redux</p>
+                                </div>
+                            </header>
+                            
+                        </div>
+                    </a>
+                </div>
+                <div className='general__display__element'>
+                    <a href='https://github.com/ildebr/ovnis-backend' class='general__link'>
+                        <div className='general_display__extra'>
+                            <img src='img/ovnisappf.webp' className='extra-img' alt='ovnis app frontend' />
+                        </div>
+
+                        <div className='general__display__main__area'>
+                            <header className='general__display__element__title'>
+                                <h4><a href='#'>OVNIS WATCHER API</a></h4>
+                                <p className='general__display__element__text'>
+                                Django API bult with rest framework for ovnis watcher, it stores sightings as well data about the users. It creates a JWT token for authentication purposes.
+                                </p>
+                                <div className='general__display__element__skills'>
+                                    <p className='general__display__element__skill'>Django</p>
+                                    <p className='general__display__element__skill'>Rest Framework</p>
+                                    <p className='general__display__element__skill'>Python</p>
                                 </div>
                             </header>
                             
