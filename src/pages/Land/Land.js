@@ -232,6 +232,29 @@ export default function Land(){
                     </a>
                 </div>
                 <div className='general__display__element'>
+                    <a href='https://gotruster.vercel.app/' class='general__link'>
+                        <div className='general_display__extra'>
+                            <img src='img/sharetime.webp' style={{margin: '0 auto', display: 'block', maxHeight: 200}} className='extra-img' />
+                        </div>
+
+                        <div className='general__display__main__area'>
+                            <header className='general__display__element__title'>
+                                <h4><a href='https://sharetime.vercel.app/'>sharetime</a></h4>
+                                <p className='general__display__element__text'>
+                                Conceptual landing page for a website offering accounts for several platforms.
+                                </p>
+                                <div className='general__display__element__skills'>
+                                    <p className='general__display__element__skill'>React</p>
+                                    <p className='general__display__element__skill'>JAVASCRIPT</p>
+                                    <p className='general__display__element__skill'>CSS</p>
+                                    <p className='general__display__element__skill'>HTML</p>
+                                </div>
+                            </header>
+                            
+                        </div>
+                    </a>
+                </div>
+                <div className='general__display__element'>
                     <a href='https://ovnis-app.onrender.com/1' class='general__link'>
                         <div className='general_display__extra'>
                             <img src='img/ovnisappf.webp' className='extra-img' alt='ovnis app frontend' />
