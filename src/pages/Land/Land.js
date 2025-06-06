@@ -1,4 +1,5 @@
 import './Land.scss'
+import { Outlet , Link } from 'react-router-dom';
 
 export default function Land(){
 
@@ -48,6 +49,8 @@ export default function Land(){
     }
     function Introduction(){
         return <section className='introduction'>
+            {/* <p><Link to={`detail/1`}> detail </Link> </p>
+            <p><Link to={`/`}> Home </Link> </p> */}
            <div className='header'>
                 <h1 className='header-title'>Ildebrando</h1>
                 <h2 className='sub-head'>Web developer</h2>
@@ -112,7 +115,7 @@ export default function Land(){
                 <div className='general__display__element'>
                     <div href='#' className='general__link'>
                         <div className='general_display__extra'>
-                            <span className='year'>2022-2023</span>
+                            <span className='year'>2022-2025</span>
                         </div>
 
                         <div className='general__display__main__area'>
@@ -209,6 +212,32 @@ export default function Land(){
             <h3 className='section-title'>PAST WORKS & PROJECTS</h3>
             <div className='general__display'>
                 <div className='hero'>
+                <div className='general__display__element'>
+                    {/* <a href='https://lowincomebenefits.com/' target='_blank' class='general__link'> */}
+                    <Link to={`detail/connek`} className='general__link'>
+                        <div className='general_display__extra'>
+                            <img src='img/connek/1.jpg' className='extra-img' alt="lowincome screen capture" />
+                        </div>
+
+                        <div className='general__display__main__area'>
+                            <header className='general__display__element__title'>
+                                <h4><a href='#'>Connek MVP</a></h4>
+                                <p className='general__display__element__text'>
+                                Tasked with building dynamic and fully responsive web views following designs provided, implementing further designs modifications if needed. 
+                    Enabling connections with existing APIs to create, update and delete records. Submitting pictures in base64, decode pictures in base64 to display them. 
+                                </p>
+                                <div className='general__display__element__skills'>
+                                    <p className='general__display__element__skill'>SVELTE</p>
+                                    <p className='general__display__element__skill'>JAVASCRIPT</p>
+                                    <p className='general__display__element__skill'>CSS</p>
+                                    <p className='general__display__element__skill'>HTML</p>
+                                </div>
+                            </header>
+                            
+                        </div>
+                    </Link>
+                    {/* </a> */}
+                </div>
                 <div className='general__display__element'>
                     <a href='https://lowincomebenefits.com/' target='_blank' class='general__link'>
                         <div className='general_display__extra'>
@@ -548,11 +577,14 @@ export default function Land(){
     function Container(){
         return <div className='container land'>
             <Introduction />
+            
             <div className='column'>
                 <About />
                 <Description />
                 <Projects />
             </div>
+            <Outlet />
+            
         </div>
     }
 
