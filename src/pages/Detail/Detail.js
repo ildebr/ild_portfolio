@@ -65,6 +65,64 @@ export default function Detail(){
             </div>
         )
     }
+
+    function MyPageChat(){
+        return (
+            <div className='experience-expanded'>
+                <h2 className='experience-title'>Mypage.chat</h2>
+                <p>My Role: <strong>Frontend Developer & Backend Developer</strong> </p>
+                <h2>Technologies</h2>
+                <p><strong>Django, Javascript, CSS, HTML</strong> </p>
+
+                {/* <h2>Description of the project</h2>
+                <p>A site where </p> */}
+
+                <h2>Description of my work</h2>
+                <p>
+                    Played a key role in developing and enhacing several features. 
+                    Tasked with building dynamic and fully responsive web views following designs provided, implementing further designs modifications if needed. 
+                    Enabling connections with existing APIs to create, update and delete records. Submitting pictures in base64, decode pictures in base64 to display them. 
+                </p>
+
+                <p>Some of my tasks were the following</p>
+
+                <ul>
+                    <li>Built an events calendar schedule using the event-calendar.js library. Ensuring cross-timezone time accuracy for seamless global coordination, making sure available time slots are displayed in the correct local time.</li>
+                    <li>Coded responsive websites</li>
+                    <li>Designed and implemented databases.</li>
+                    <li>Built nested comment's section resembling that of reddit</li>
+                    <li>Implemented API to receive data related to followings, users, comments.</li>
+                    <li>Built user detail page. adapted new post functionality.</li>
+                    <li>Built new email area.</li>
+                    <li>Created invite.ics template file to be used to hold data related to the participants of a meeting. </li>
+
+                </ul>
+
+                <h2>Gallery</h2>
+                <p>The following are screenshots taken from the different pages and components I developed during my time at connek</p>
+
+                <img className='experience-img' src='../../img/mypagechat/1.png' />
+                <p className='caption'>Compose Mail Page</p>
+                {/* <img className='experience-img' src='../../img/mypagechat/2.png' />
+                <p className='caption'>Search view (light mode)</p> */}
+                <img className='experience-img' src='../../img/mypagechat/3.png' />
+                <p className='caption'>Comments area</p>
+                <img className='experience-img' src='../../img/mypagechat/4.png' />
+                <p className='caption'>Schedule area</p>
+                <img className='experience-img' src='../../img/mypagechat/5.png' />
+                <p className='caption'>Calendar area</p>
+                <img className='experience-img' src='../../img/mypagechat/6.png' />
+                <p className='caption'>Calendar area with events</p>
+                <img className='experience-img' src='../../img/mypagechat/7.png' />
+                <p className='caption'>Create event</p>
+                <img className='experience-img' src='../../img/mypagechat/8.png' />
+                <p className='caption'>Schedule a call area</p>
+                <video src='../../img/mypagechat/vid1.mp4' autoPlay loop controls="false" muted></video>
+                <p className='caption'>Comments area</p>
+
+            </div>
+        )
+    }
     return (
         <div className='load'>
             <div className='clickable-bg'>
@@ -74,7 +132,8 @@ export default function Detail(){
             <section className='detail-container'>
                 <Link to={`/`}><img src='../../img/left-arrow.svg' className='left-arrow' /></Link>
                 
-                {id == 'connek' ? <Connek /> : <></> }
+                {id === 'connek' ? <Connek /> : <></> }
+                {id === 'mypagechat' ? <MyPageChat /> : <></> }
                 
             </section>
         </div>

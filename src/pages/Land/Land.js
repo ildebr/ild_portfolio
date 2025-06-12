@@ -122,7 +122,7 @@ export default function Land(){
                             <header className='general__display__element__title'>
                                 <h4>Frontend Developer - Lead Buyer Hub LLC</h4>
                                 <p className='general__display__element__text'>
-                                I designed and developed websites using Wordpress, HTML, CSS and JavaScript that met the client's requirements and enhanced the user experience. I also ensured the websites were compatible with various devices and browsers. I used Filezilla, FTP and other tools to upload and manage web content efficiently and securely.
+                                I designed and developed websites using Wordpress, HTML, CSS and JavaScript that met the client's requirements and enhanced the user experience. Managed data submission to be sent to gohighlevel through stablished automations to process the lead info and perform predefined actions.  I also ensured the websites were compatible with various devices and browsers. I used Filezilla, FTP and other tools to upload and manage web content efficiently and securely.
                                 </p>
                                 <div className='general__display__element__skills'>
                                     <p className='general__display__element__skill'>Wordpress</p>
@@ -214,6 +214,31 @@ export default function Land(){
                 <div className='hero'>
                 <div className='general__display__element'>
                     {/* <a href='https://lowincomebenefits.com/' target='_blank' class='general__link'> */}
+                    <Link to={`detail/mypagechat`} className='general__link'>
+                        <div className='general_display__extra'>
+                            <img src='../img/mypagechat/1.png' className='extra-img' alt="lowincome screen capture" />
+                        </div>
+
+                        <div className='general__display__main__area'>
+                            <header className='general__display__element__title'>
+                                <h4><a href='#'>myPage.chat</a></h4>
+                                <p className='general__display__element__text'>
+                                mypage
+                                </p>
+                                <div className='general__display__element__skills'>
+                                    <p className='general__display__element__skill'>SVELTE</p>
+                                    <p className='general__display__element__skill'>JAVASCRIPT</p>
+                                    <p className='general__display__element__skill'>CSS</p>
+                                    <p className='general__display__element__skill'>HTML</p>
+                                </div>
+                            </header>
+                            
+                        </div>
+                    </Link>
+                    {/* </a> */}
+                </div>
+                <div className='general__display__element'>
+                    {/* <a href='https://lowincomebenefits.com/' target='_blank' class='general__link'> */}
                     <Link to={`detail/connek`} className='general__link'>
                         <div className='general_display__extra'>
                             <img src='img/connek/1.jpg' className='extra-img' alt="lowincome screen capture" />
@@ -261,7 +286,7 @@ export default function Land(){
                     </a>
                 </div>
                 <div className='general__display__element'>
-                    <a href='https://gotruster.vercel.app/' target='_blank' class='general__link'>
+                    <a href='https://sharetime.vercel.app/' target='_blank' class='general__link'>
                         <div className='general_display__extra'>
                             <img src='img/sharetime.webp' style={{margin: '0 auto', display: 'block', maxHeight: 200}} className='extra-img' />
                         </div>
